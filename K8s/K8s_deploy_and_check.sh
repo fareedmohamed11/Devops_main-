@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the namespace to check
-NAMESPACE="macarious"
+NAMESPACE="fareed"
 
 # Apply Kubernetes manifests
 echo "Applying namespace.yaml..."

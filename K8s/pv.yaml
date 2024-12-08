@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: my-pv-volume
-  namespace: macarious
+  namespace: fareed 
 spec:
   capacity:
     storage: 1Gi

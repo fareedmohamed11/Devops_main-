@@ -17,7 +17,7 @@ pipeline {
                 // Stage For Removing application Deployment on EKS Cluster
                 dir('K8s'){
                     script{
-                        removeDeploymentStage('aws-jenkins-credentials', 'Macarious-eks-cluster','us-east-2')
+                        removeDeploymentStage('aws-jenkins-credentials', 'fareed-eks-cluster','us-east-2')
                     }
                 }
             }
